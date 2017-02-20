@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Tracker</title>
+    <meta charset="utf-8">
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+     <script type="text/javascript" src="tracker.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="test.css">
+</head>
+
+<body class="container-fluid">
+	<div class="jumbotron">
+	    <h1>Task Tracker</h1>
+	    <p>v2.0</p> 
+	</div>
+	<div class="row">
+		<section class="col-md-6" id="leftSection">
+			<h2>Create a Task</h2>
+			
+			<label for="taskName" >Task Name</label><br>
+			<input type="text" class="form-control" style = "background-color: #F0F0F0;" name="taskName" id="taskName" required><br>
+			<label for="date">Date</label><br>
+			<input type="date" class="form-control" style = "background-color: #F0F0F0;" name="date" id="date" required><br>
+			<label for="assignedTo">Assigned To</label><br>
+			<input type="text" class="form-control" style = "background-color: #F0F0F0;" name="assignedTo" id="assignedTo" required><br>
+			<button type="submit" class="btn btn-primary" "background-color: #FFFFFF;" id="submitClickButton" > Submit </button>
+			
+		</section>
+		<section class="col-md-6">
+			<h2>Existing Tasks</h2>
+			<table id="tableId" cellpadding="20">
+			</table>
+		</section>
+	</div>
+</body>
+
+</html>

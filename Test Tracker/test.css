@@ -1,0 +1,15 @@
+#leftSection {
+    		border-right : solid #F0F0F0;
+    		border-width: 7px;
+    	}
+    	table {
+    		border-collapse:separate;
+		    border-radius:10px;
+		    -moz-border-radius:10px;
+    		border : solid #F0F0F0;
+    		border-width: 5px;
+    	}
+
+    	td {
+		    padding: 7px;
+		}
